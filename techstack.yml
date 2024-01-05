@@ -2,7 +2,7 @@ repo_name: jadenblack/vaultwarden
 report_id: 2a638007366169d4489ea3a3b29d36a7
 version: 0.1
 repo_type: Public
-timestamp: '2023-12-17T18:10:29+00:00'
+timestamp: '2024-01-05T08:22:56+00:00'
 requested_by: BlackDex
 provider: github
 branch: main
@@ -16,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Templating Languages & Extensions
   image_url: https://img.stackshare.io/service/1143/Handlebars.png
+  detection_source_url: https://github.com/jadenblack/vaultwarden
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -26,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/jadenblack/vaultwarden/blob/main/src/static/scripts/bootstrap.bundle.js
   detection_source: src/static/scripts/bootstrap.bundle.js
   last_updated_by: BlackDex
   last_updated_on: 2023-07-27 20:51:22.000000000 Z
@@ -38,6 +40,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/jadenblack/vaultwarden
   detection_source: Repo Metadata
 - name: Rust
   description: A safe, concurrent, practical language
@@ -47,6 +50,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1070/v7txhrjp9pdqrkdtxxp0.png
+  detection_source_url: https://github.com/jadenblack/vaultwarden
   detection_source: Repo Metadata
 - name: SQL
   description: It is a domain-specific language used in programming
@@ -56,6 +60,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/jadenblack/vaultwarden/blob/main/migrations/mysql/2018-01-14-171611_create_tables/down.sql
   detection_source: migrations/mysql/2018-01-14-171611_create_tables/down.sql
   last_updated_by: Daniel García
   last_updated_on: 2018-02-10 00:00:55.000000000 Z
@@ -67,6 +72,7 @@ tools:
   category: Data Stores
   sub_category: Database Tools
   image_url: https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png
+  detection_source_url: https://github.com/jadenblack/vaultwarden/blob/main/LICENSE.txt
   detection_source: LICENSE.txt
   last_updated_by: Daniel García
   last_updated_on: 2018-02-14 23:40:34.000000000 Z
@@ -79,6 +85,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Virtual Machine Platforms & Containers
   image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/jadenblack/vaultwarden/blob/main/Dockerfile
   detection_source: Dockerfile
   last_updated_by: Mathijs van Veluw
   last_updated_on: 2023-10-22 22:18:38.000000000 Z
@@ -90,6 +97,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/jadenblack/vaultwarden
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -99,6 +107,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/jadenblack/vaultwarden/blob/main/.github/workflows/build.yml
   detection_source: ".github/workflows/build.yml"
   last_updated_by: Mathijs van Veluw
   last_updated_on: 2023-12-04 19:26:11.000000000 Z
@@ -111,6 +120,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Operating Systems
   image_url: https://img.stackshare.io/service/6429/alpine_linux.png
+  detection_source_url: https://github.com/jadenblack/vaultwarden/blob/main/Dockerfile
   detection_source: Dockerfile
   last_updated_by: Mathijs van Veluw
   last_updated_on: 2023-10-22 22:18:38.000000000 Z
@@ -122,6 +132,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Operating Systems
   image_url: https://img.stackshare.io/service/1656/vd4gAekh.png
+  detection_source_url: https://github.com/jadenblack/vaultwarden/blob/main/Dockerfile
   detection_source: Dockerfile
   last_updated_by: Mathijs van Veluw
   last_updated_on: 2023-10-22 22:18:38.000000000 Z
@@ -133,6 +144,7 @@ tools:
   category: Communications
   sub_category: Large Language Model Tools
   image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source_url: https://github.com/jadenblack/vaultwarden/blob/main/LICENSE.txt
   detection_source: LICENSE.txt
   last_updated_by: Daniel García
   last_updated_on: 2018-02-14 23:40:34.000000000 Z
@@ -145,6 +157,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/jadenblack/vaultwarden
   detection_source: Repo Metadata
 - name: Ubuntu
   description: The leading OS for PC, tablet, phone and cloud
@@ -154,6 +167,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Operating Systems
   image_url: https://img.stackshare.io/service/3511/cof_orange_hex.jpg
+  detection_source_url: https://github.com/jadenblack/vaultwarden/blob/main/Dockerfile
   detection_source: Dockerfile
   last_updated_by: Mathijs van Veluw
   last_updated_on: 2023-10-22 22:18:38.000000000 Z
